@@ -12,24 +12,24 @@ app.get('/portfolio', (req, res) => {
         personalInfo: {
             Name: "Hans Heisenberg D. Montemar",
             Birthday: "October 31, 2002",
-            Gender: "Male",
+            Gender: "male",
             ContactNo: "05678009",
-            Address: "Middle Nivel Hills, Apas, Cebu City, Philippines",
+            Address: "Apas",
         },
         skills: [
             { description: "html", level: "Intermediate"},
-            { description: "canva", level: "Intermediate"}
+            { description: "java", level: "Intermediate"}
         ],
         workExperience: [
             { company: "#projectmanika", designation: "CEO", details: "", year: "2019-2021"},
             { company: "accenture", designation: "canva editor", details: "", year: "2021-2023" },
-            { company: "hazbinhotel", designation: "front desk", details: "", year: "2023-2024" }
+            { company: "hazbinhotel", designation: "ceo", details: "", year: "2023-2024" }
         ],
         education: [
             { school: "USPF Lahug", year: "2022-present" },
             { school: "Lyceum of Cebu", year: "2019-2021" },
             { school: "Lyceum of Cebu", year: "2013-2017" },
-            { school: "Lahug Elementary School", year: "20XX-20XX" }
+            { school: "Maria Montessori", year: "20XX-20XX" }
         ],
         personalReferences: [
             { name: "Marites D. Montemar", relationship: "manager", contactNo: "0923545" },
