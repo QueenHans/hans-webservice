@@ -1,12 +1,16 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
+
+// Use CORS middleware
+app.use(cors());
 
 // Define combined endpoint
 app.get('/portfolio', (req, res) => {
     const portfolioData = {
         personalInfo: {
-            Name: "Hans Heisenber D. Montemar",
+            Name: "Hans Heisenberg D. Montemar",
             Birthday: "October 31, 2002",
             Gender: "Male",
             ContactNo: "05678009",
