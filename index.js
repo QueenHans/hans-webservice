@@ -6,31 +6,30 @@ const port = 3000;
 app.get('/portfolio', (req, res) => {
     const portfolioData = {
         personalInfo: {
-            Name: "",
-            Birthday: "",
-            Gender: "",
-            ContactNo: "",
-            Address: "",
+            Name: "Hans Heisenber D. Montemar",
+            Birthday: "October 31, 2002",
+            Gender: "Male",
+            ContactNo: "05678009",
+            Address: "Middle Nivel Hills, Apas, Cebu City, Philippines",
         },
         skills: [
-            { description: "UI/UX Designer", level: ""},
-            { description: "HTML&CSS", level: "Intermediate"}
+            { description: "html", level: "Intermediate"},
+            { description: "canva", level: "Intermediate"}
         ],
         workExperience: [
-            { company: "DesignLab Solution", designation: "UI/UX Designer", details: "Designed user interfaces and interactions for various digital products, focusing on usability and accessibility. Created wireframes, mockups, and interactive prototypes to communicate design ideas. Conducted usability testing and gathered feedback to refine designs.", year: "2019-2021"},
-            { company: "PixelPerfect Designs", designation: "Junior UI Designer", details: "Assisted in the design and development of user interfaces for web and mobile applications. Worked closely with senior designers to translate concepts into visually appealing designs. Participated in brainstorming sessions and design critiques to improve design quality.", year: "2021-2023" },
-            { company: "ACCENTURE", designation: "TIG PRINT", details: "KAKAPOY.", year: "2023-2024" }
+            { company: "#projectmanika", designation: "CEO", details: "", year: "2019-2021"},
+            { company: "accenture", designation: "canva editor", details: "", year: "2021-2023" },
+            { company: "hazbinhotel", designation: "front desk", details: "", year: "2023-2024" }
         ],
         education: [
-            { school: "University of Southern Philippines Foundation Lahug", year: "2022-present" },
-            { school: "University of Southern Philippines Foundation Lahug", year: "2019-2021" },
-            { school: "University of Southern Philippines Foundation Lahug", year: "2013-2017" },
-            { school: "IGLC Montessori School Inc", year: "20XX-20XX" },
-            { school: "UC", year: "2020-2021" }
+            { school: "USPF Lahug", year: "2022-present" },
+            { school: "Lyceum of Cebu", year: "2019-2021" },
+            { school: "Lyceum of Cebu", year: "2013-2017" },
+            { school: "Lahug Elementary School", year: "20XX-20XX" }
         ],
         personalReferences: [
-            { name: "alice", relationship: "Supervisor at DesignLab Solutions", contactNo: "0923-456-7890" },
-            { name: "Kim Hanbin", relationship: "Senior UI Designer at PixelPerfect Designs", contactNo: "0955-123-4567" }
+            { name: "Marites D. Montemar", relationship: "manager", contactNo: "0923545" },
+            { name: "Arceo S. Montemar II", relationship: "employee", contactNo: "097853453" }
         ]
     };
     res.json(portfolioData);
