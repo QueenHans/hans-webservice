@@ -10,8 +10,8 @@ app.use(cors());
 app.get('/portfolio', (req, res) => {
     const portfolioData = {
         personalInfo: {
-            Name: "Hans Heisenberg D. Montemar",
-            Birthday: "October 31, 2002",
+            Name: "Hans",
+            Birthday: "2001",
             Gender: "male",
             ContactNo: "05678009",
             Address: "Apas",
@@ -29,7 +29,8 @@ app.get('/portfolio', (req, res) => {
             { school: "USPF Lahug", year: "2022-present" },
             { school: "Lyceum of Cebu", year: "2019-2021" },
             { school: "Lyceum of Cebu", year: "2013-2017" },
-            { school: "Maria Montessori", year: "20XX-20XX" }
+            { school: "Maria Montessori", year: "20XX-20XX" },
+            { school: "Colegio de la Inmaculada Concepcion", year: "20XX-20XX" }
         ],
         personalReferences: [
             { name: "Marites D. Montemar", relationship: "manager", contactNo: "0923545" },
