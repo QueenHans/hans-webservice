@@ -32,7 +32,8 @@ app.get('/portfolio', (req, res) => {
             { school: "Lyceum of Cebu", year: "2013-2017" },
             { school: "Maria Montessori", year: "20XX-20XX" },
             { school: "Colegio de la Inmaculada Concepcion", year: "20XX-20XX" },
-            { school: "Little Haven", year: "20XX-20XX" }
+            { school: "Little Haven", year: "20XX-20XX" },
+            { school: "Colegio de San Jose Recoletos", year: "20XX-20XX" }
         ],
         personalReferences: [
             { name: "Marites D. Montemar", relationship: "manager", contactNo: "0923545" },
